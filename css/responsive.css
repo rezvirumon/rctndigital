@@ -206,3 +206,20 @@
 /* Banner-Responsive */
 
 
+/* Channels Section Responsive */
+
+@media screen and (max-width:576px){
+.search-box input{
+    display: block;
+    width: 90%;
+    border: none;
+    border-radius: 10px;
+    height: 40px;
+    text-align: center;
+}
+}
+@media screen and (max-width:576px){
+#digitalTV{
+    height: 100vh;
+}
+}

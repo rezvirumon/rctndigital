@@ -38,7 +38,7 @@
             <ul class="nav-links">
                 <li><a href="#">Home</a></li>
                 <li><a href="#">About</a></li>
-                <li><a href="#">Digital Channels</a></li>
+                <li><a href="#digitalTV">Digital Channels</a></li>
                 <li><a href="#">Services</a></li>
                 <li><a href="#">Contact</a></li>
                 <li><a href="#">Login</a></li>
@@ -81,28 +81,28 @@
     <!-- banner -->
 
     
-
+<section id="digitalTV">
     <!-- Search Bar -->
-    <div class="mb-10">
+    <div class="mb-10 search-box" data-aos="fade-right" >
         <input type="text" id="searchInput" class="border p-2 w-full" placeholder="Search channels...">
     </div>
 
     <!-- Category Filter -->
-<div class="mb-4">
+<div class="mb-4 category-list" data-aos="fade-left">
     <select id="categoryFilter" class="border p-2">
         <!-- Categories will be dynamically added here using JavaScript -->
     </select>
 </div>
 
 <!-- Total Channels Count -->
-<div id="totalCount" class="text-black-700 mb-4"></div>
+<div id="totalCount" class="text-red-700 mb-4 channel-counter" data-aos="fade-right"></div>
 
 
     <!-- Channel List -->
-    <div id="channelList" class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 xl:grid-cols-8 gap-4">
+    <div id="channelList" class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 xl:grid-cols-8 gap-4" >
         <!-- Add your channel items dynamically here using JavaScript -->
     </div>
-
+</section>
 
 
   

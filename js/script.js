@@ -45,22 +45,22 @@ body.addEventListener("click" , e =>{
 document.addEventListener('DOMContentLoaded', function () {
   // Sample data with categories (replace with your own channel data)
   const channelData = [
-      { name: 'BTV WORLD', logo: '../image/btvlogo.png', category: 'News' },
-      { name: 'BTV NATIONAL', logo: '../image/btvlogo.png', category: 'News' },
-      { name: 'BTV CHATTOGRAM', logo: '../image/Bangladesh_Television_Chittagong_Logo.png', category: 'News' },
-      { name: 'SANGSAD BANGLADESH', logo: '../image/SANGSAD BANGLADESH.png', category: 'News' },
-      { name: 'BTV WORLD', logo: '../image/BTV_World_Logo (1).png', category: 'News' },
+      { name: 'BTV WORLD', logo: 'https://rumon-web.netlify.app/img/amc-digital.png', category: 'News' },
       { name: 'BTV NATIONAL', logo: 'https://rumon-web.netlify.app/img/amc-digital.png', category: 'News' },
       { name: 'BTV CHATTOGRAM', logo: 'https://rumon-web.netlify.app/img/amc-digital.png', category: 'News' },
       { name: 'SANGSAD BANGLADESH', logo: 'https://rumon-web.netlify.app/img/amc-digital.png', category: 'News' },
-      { name: 'BTV WORLD', logo: 'https://rumon-web.netlify.app/img/amc-digital.png', category: 'News' },
-      { name: 'BTV NATIONAL', logo: 'https://rumon-web.netlify.app/img/amc-digital.png', category: 'Entertainment' },
-      { name: 'BTV CHATTOGRAM', logo: 'https://rumon-web.netlify.app/img/amc-digital.png', category: 'Music' },
-      { name: 'SANGSAD BANGLADESH', logo: 'https://rumon-web.netlify.app/img/amc-digital.png', category: 'Music' },
-      { name: 'BTV WORLD', logo: 'https://rumon-web.netlify.app/img/amc-digital.png', category: 'Music' },
-      { name: 'BTV NATIONAL', logo: 'https://rumon-web.netlify.app/img/amc-digital.png', category: 'Movie' },
-      { name: 'BTV CHATTOGRAM', logo: 'https://rumon-web.netlify.app/img/amc-digital.png', category: 'Movie' },
-      { name: 'SANGSAD BANGLADESH', logo: 'https://rumon-web.netlify.app/img/amc-digital.png', category: 'Movie' },
+      { name: 'Comming Soon', logo: 'https://rumon-web.netlify.app/img/amc-digital.png', category: 'News' },
+      { name: 'Comming Soon', logo: 'https://rumon-web.netlify.app/img/amc-digital.png', category: 'News' },
+      { name: 'Comming Soon', logo: 'https://rumon-web.netlify.app/img/amc-digital.png', category: 'News' },
+      { name: 'Comming Soon', logo: 'https://rumon-web.netlify.app/img/amc-digital.png', category: 'News' },
+      { name: 'Comming Soon', logo: 'https://rumon-web.netlify.app/img/amc-digital.png', category: 'Music' },
+      { name: 'Comming Soon', logo: 'https://rumon-web.netlify.app/img/amc-digital.png', category: 'Entertainment' },
+      { name: 'Comming Soon', logo: 'https://rumon-web.netlify.app/img/amc-digital.png', category: 'Documentary' },
+      { name: 'Comming Soon', logo: 'https://rumon-web.netlify.app/img/amc-digital.png', category: 'Indian' },
+      { name: 'Comming Soon', logo: 'https://rumon-web.netlify.app/img/amc-digital.png', category: 'Pakisthani' },
+      { name: 'Comming Soon', logo: 'https://rumon-web.netlify.app/img/amc-digital.png', category: 'Movie' },
+      { name: 'Comming Soon', logo: 'https://rumon-web.netlify.app/img/amc-digital.png', category: 'Movie' },
+      { name: 'Comming Soon', logo: 'https://rumon-web.netlify.app/img/amc-digital.png', category: 'Movie' },
      
       // Add more channels as needed
 

@@ -244,3 +244,35 @@ nav .nav-bar .logo a{
 
 
 
+/* search-box */
+
+.search-box input{
+    border-radius: 20px;
+    width: 60%;
+    display: block;
+    margin: 20px auto;
+    outline: none;
+}
+
+#categoryFilter{
+   border-radius: 20px;
+   width: 60%;
+   display: block;
+   margin: auto;
+   outline: none;
+}
+
+.channel-counter{
+    font-size: 20px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+#channelList img{
+   border-radius: 20px;
+   transition: all 0.5s ease;
+}
+#channelList img:hover{
+   box-shadow: 2px 2px 30px 2px rgb(61, 52, 50);
+}
+
